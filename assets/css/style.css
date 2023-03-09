@@ -28,14 +28,20 @@ img {
 
 /*********header************/
 header {
-    padding-top: 4rem;
+    
 }
 
 .main-header {
+    padding-top: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    /* background-color: #000000;  */
 }
 
 .main-header nav ul {
@@ -59,58 +65,63 @@ header {
     margin-right: 0;
 }
 
-h2 {
-    font-size: 30px;
-}
+
 
 /**************************/
 
 /*********Hero Section**********/
 #hero {
-    position: absolute;
+    position: relative;
     top: 0;
     width: 100%;
-    /* height: 100vh; */
-    background-image: linear-gradient(180deg, #000000 36.84%, rgba(200, 25, 28));
-    /* background: linear-gradient(180deg , rgba(0, 0, 0, 1),rgba(200, 25, 28, 0)); */
+    height: 100vh;
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    display: flex;
     background-position: center center;
     background-size: cover;
-    z-index: -9;
+    /* z-index: -9; */
 }
 
 #hero::before {
     content: '';
     position: absolute;
-    background-image: url(../images/vector.png);
-    /* z-index: 1; */
-    top: 0;
+    background-image: url(../images/Wheel2\ 1.png);
+    inset: 0;
+    opacity: 0.5;
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
-
-.main-title h1 {
-    font-weight: 700;
-    font-size: 7rem;
-    line-height: 8rem;
+.hero-data{
+    position: relative;
+    z-index: 99;
     text-align: center;
+}
+.hero-data h1 {
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 10rem;
     color: #FFFFFF;
-    margin-top: 22rem;
+    margin-top: 40rem;
+    
 }
 
-.main-title h1 span {
+.hero-data h1 span {
     color: #C8191C;
 }
 
-.main-title p {
+.hero-data p {
+    padding: 5.5rem 0;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 3rem;
-    text-align: center;
     color: #FFFFFF;
+    max-width: 90rem;
+    margin: 0 auto;
 }
 
-#hero .Started {
-   
-    text-align: center;
-    padding: 15px 10px;
+.hero-data .btn-theme {
+    padding: 15px 70px;
     width: 300px;
     height: 63px;
     background: #C8191C;
@@ -118,8 +129,16 @@ h2 {
     font-size: 2.4rem;
     line-height: 3.3rem;
     color: #FFFFFF;
-    margin: 0 auto;
 }
+
+/**************************/
+
+/******Descover*************/
+#descover{
+   
+   
+}
+
 
 /**************************/
 

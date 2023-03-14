@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/font.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -288,19 +293,23 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">FIRST NAME*</label>
-                                <input type="text" class="form-control" id="First name" placeholder="Enter Your First Name" aria-label="First name">
+                                <input type="text" class="form-control" id="First name"
+                                    placeholder="Enter Your First Name" aria-label="First name">
                             </div>
                             <div class="col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">LAST NAME*</label>
-                                <input type="text" class="form-control" id="Last name" placeholder="Enter Your Last Name" aria-label="Last name">
+                                <input type="text" class="form-control" id="Last name"
+                                    placeholder="Enter Your Last Name" aria-label="Last name">
                             </div>
                             <div class="col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">YOUR PHONE*</label>
-                                <input type="text" class="form-control" id="Mobile phone" placeholder="+44 3737 838xxx" aria-label="Your Phone">
+                                <input type="number" class="form-control" id="Mobile phone"
+                                    placeholder="+44 3737 838xxx" aria-label="Your Phone">
                             </div>
                             <div class="col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">YOUR EMAIL*</label>
-                                <input type="Email" class="form-control" id="Email" placeholder="youremail@domain.com" aria-label="Email">
+                                <input type="Email" class="form-control" id="Email" placeholder="youremail@domain.com"
+                                    aria-label="Email">
                             </div>
                             <div class="col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">SERVICES*</label>
@@ -309,11 +318,12 @@
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
-                                  </select>
+                                </select>
                             </div>
                             <div class="col-md-6">
-                                <label for="formGroupExampleInput" class="form-label">YOUR PHONE*</label>
-                                <input type="" class="form-control" id="date" placeholder="Choose Date" aria-label="date">
+                                <label for="formGroupExampleInput" class="form-label">DATE*</label>
+                                <input type="date" class="form-control" id="date" placeholder="Choose Date"
+                                    aria-label="date">
                             </div>
                             <div class="col-md-6">
                                 <a href="#" class="btn-theme">BookNow</a>
@@ -328,8 +338,173 @@
         <section id="membership">
             <div class="mem-ship">
                 <h2>LET’S BECOME MEMBERSHIP</h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu.</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur
+                    elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim
+                    eu.</p>
                 <a href="#" class="btn-theme">Get started</a>
+            </div>
+        </section>
+
+        <section id="mem-price">
+            <div class="container">
+                <div class="main-title">
+                    <h5>Membership</h5>
+                    <h2>Membership Price</h2>
+                </div>
+
+                <div class="mp-data row justify-content-between">
+                    <div class="mp-data-box col-auto border">
+                        <h3>STARTER PRICE</h3>
+                        <h2>$44/<span>Month</span></h2>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <a href="#" class="btn-theme">Choose Now</a>
+                    </div>
+                    <div class="mp-data-box col-auto border">
+                        <h3>BEST VALUE</h3>
+                        <h2>$72/<span>Month</span></h2>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <a href="#" class="btn-theme">Choose Now</a>
+                    </div>
+                    <div class="mp-data-box col-auto border">
+                        <h3>PREMIUM PRICE</h3>
+                        <h2>$112/ <span>Month</span> </h2>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
+                        <a href="#" class="btn-theme">Choose Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="say-about">
+            <div class="container">
+                <div class="main-title">
+                    <h2>OUR HAPPY CLIENT SAY ABOUT BOODOO</h2>
+                </div>
+                <div class="arrow-img">
+                    <img src="./assets/images/Arrow 2.png" alt="">
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-5.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Antonio H - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-4.jpg" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Jessica D - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-5.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Jessica D - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-4.jpg" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Antonio H - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-5.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Jessica D - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-4.jpg" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Antonio H - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-5.png" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Jessica D - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-4.jpg" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Antonio H - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="client-say">
+                                <div class="client-img">
+                                    <img src="./assets/images/client-2.jpg" alt="">
+                                </div>
+                                <div class="client-data">
+                                    <span>"</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae. Tempor odio ullamcorper non sed dignissim eu egestas fusce arcu.</p>
+                                    <h4>Jessica D - Client</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
             </div>
         </section>
     </main>
@@ -339,6 +514,31 @@
     </footer>
 
     <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+          },
+        });
+      </script>
 </body>
 
 </html>

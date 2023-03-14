@@ -479,7 +479,7 @@ header {}
     padding: 10.5rem 0;
     text-align: center;
     /* z-index: -9; */
-   
+
 }
 
 #membership::before {
@@ -490,10 +490,12 @@ header {}
     background-repeat: no-repeat;
     background-position: center;
 }
-.mem-ship{
+
+.mem-ship {
     position: relative;
     z-index: 9;
 }
+
 #membership h2 {
     font-weight: 700;
     font-size: 84px;
@@ -513,10 +515,162 @@ header {}
     max-width: 90rem;
     margin: 0 auto 5rem auto;
 }
-#membership .btn-theme{
-  
-}
+
+#membership .btn-theme {}
+
 /**************************************/
+/**************Membership Price**************/
+#mem-price {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20rem 0;
+}
+
+#mem-price .main-title {
+    text-align: center;
+}
+
+.mp-data h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.mp-data h2 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.mp-data h2 span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mp-data p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.mp-data p i {
+    display: inline-block;
+    font-size: 4.4rem;
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+    background-color: #000;
+    margin-right: 2rem;
+}
+
+.mp-data .btn-theme {
+    margin-top: 8rem;
+    display: block;
+}
+
+.mp-data-box {
+    padding: 6rem 7.7rem;
+}
+
+.mp-data-box:hover {
+    background-color: #C8191C;
+}
+
+.mp-data-box:hover .btn-theme {
+    background-color: #FFF;
+    color: #C8191C;
+}
+
+/*********************************************/
+/*************Say about section*************/
+#say-about {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20rem 0;
+}
+
+#say-about .main-title h2 {
+    max-width: 140rem;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.arrow-img img {
+    margin: 0 auto;
+    text-align: center;
+}
+.swiper-wrapper{
+    margin: 2rem 20rem;
+}
+.swiper-wrapper .client-say {
+    padding-left: 3rem;
+    width: 48rem;
+    height: 76rem;
+    
+}
+.client-say .client-img {
+    Width: 476px;
+    Height: 512px;
+    margin-bottom: 10rem;
+}
+
+.client-say .client-img img {
+    Width: 100%;
+    Height: 100%;
+   
+}
+.client-say .client-data{
+    position: relative;
+}
+.client-say .client-data span {
+    position: absolute;
+    width: 98px;
+    height: 85px;
+    color:  rgba(255, 255, 255, 0.2);
+    font-size: 30rem;
+    top: -17rem;
+    left: -3rem;
+}
+.client-say .client-data p {
+    max-width: 465px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.client-say .client-data h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+
+/*********************************************/
 @media screen and (min-width:1500px) {
     .container {
         max-width: 150rem;

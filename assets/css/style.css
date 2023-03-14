@@ -39,7 +39,7 @@ header {}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: #000000;  */
+    background-color: #000000;
 }
 
 .main-header nav ul {
@@ -369,14 +369,17 @@ header {}
     gap: 0 6rem;
     margin-bottom: 10rem;
 }
-.hs-row{
+
+.hs-row {
     display: flex;
     gap: 0 8.6rem;
 }
-.hs-box .hs-img img{
+
+.hs-box .hs-img img {
     width: 18rem;
     height: 18rem;
 }
+
 .hs-box .hs-data h3 {
     font-weight: 700;
     font-size: 54px;
@@ -393,8 +396,125 @@ header {}
     line-height: 24px;
     color: #FFFFFF;
 }
-#Horoscope a{
+
+#Horoscope a {
+    text-align: center;
+    margin: 0 auto;
     display: block;
+}
+
+.client {
+    margin-top: 20rem;
+    justify-content: space-between;
+}
+
+.client h5 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C8191C;
+    text-align: left;
+}
+
+.client h2 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 136px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* text-align: center; */
+}
+
+/**************************************/
+/***********Our-team Section**************/
+#Our-team {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20rem 0;
+
+}
+
+.team-data .main-title {
+    margin: 22.4rem 0;
+}
+
+.team-data .form-label {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.team-data .form-select,
+.team-data .form-control {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: transparent;
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+    margin-right: 8rem;
+    padding: 3.3rem 18.6rem 3.3rem 3rem;
+    width: auto;
+
+}
+
+.team-data .form-select {
+    padding: 3.3rem 30.6rem 3.3rem 3rem;
+}
+
+/**************************************/
+
+/***********Membership Section**************/
+#membership {
+    position: relative;
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
+    background-size: cover;
+    padding: 10.5rem 0;
+    text-align: center;
+    /* z-index: -9; */
+   
+}
+
+#membership::before {
+    content: '';
+    background: url(../images/Wheel2.png);
+    position: absolute;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mem-ship{
+    position: relative;
+    z-index: 9;
+}
+#membership h2 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#membership p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5rem;
+    max-width: 90rem;
+    margin: 0 auto 5rem auto;
+}
+#membership .btn-theme{
+  
 }
 /**************************************/
 @media screen and (min-width:1500px) {

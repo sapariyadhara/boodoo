@@ -130,7 +130,6 @@ header {}
     font-size: 2.4rem;
     line-height: 3.3rem;
     color: #FFFFFF;
-
 }
 
 /**************************/
@@ -182,20 +181,24 @@ header {}
     color: #FFFFFF;
     margin-top: 12rem;
 }
-.discover-with h5{
+
+.discover-with h5 {
     margin-top: 2.8rem;
 }
-.with-img img{
+
+.with-img img {
     width: 729px;
     height: 506px;
-    object-position:  center center;
+    object-position: center center;
     object-fit: cover;
 }
-.with-data{
+
+.with-data {
     padding-left: 15rem;
     position: relative;
 }
-.with-data::before{
+
+.with-data::before {
     content: '';
     position: absolute;
     width: 0rem;
@@ -204,13 +207,196 @@ header {}
     left: 3rem;
     top: 3.8rem;
 }
-.with-data .btn-theme{
+
+.with-data .btn-theme {
     margin-top: 10rem;
     display: inline-block;
-   
+
 }
+
 /**************************/
 
+
+/************Imageine Section********/
+#imageine {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding-top: 20rem;
+}
+
+.super-imagine h2 {
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+}
+
+.super-imagine p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 11.5rem;
+    max-width: 46rem;
+}
+
+.super-imagine img {
+    width: 90rem;
+    height: 33rem;
+    /* object-position:  center bottom; */
+    /* object-fit: cover; */
+    margin-bottom: 10rem;
+}
+
+/**************************************/
+
+/***************Service Section***************/
+#SERVICES {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#SERVICES h2,
+#SERVICES h5 {
+    text-align: center;
+}
+
+#SERVICES h2 {
+    max-width: 148rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem 0;
+}
+
+.forecast .forecast-data {
+    padding: 6rem;
+}
+
+.forecast .forecast-data img {
+    width: 53rem;
+    height: 32rem;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.forecast .forecast-data h4 {
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 5rem;
+}
+
+.forecast .forecast-data p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 2rem;
+}
+
+/**************************************/
+
+/*************Why Section*************/
+#why {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+#why .main-title {
+    text-align: center;
+}
+
+#why .main-title h2 {
+    margin-bottom: 17.2rem;
+}
+
+.why-choose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-choose img {
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
+}
+
+.why-choose h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.why-choose p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/**************************************/
+/**************Horoscope Section************/
+#Horoscope#Horoscope {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20rem 0;
+}
+
+#Horoscope .main-title {
+    text-align: center;
+}
+
+#Horoscope .main-title h2 {
+    max-width: 110rem;
+    margin: 0 auto 10rem auto;
+}
+
+.hs-box {
+    display: flex;
+    gap: 0 6rem;
+    margin-bottom: 10rem;
+}
+.hs-row{
+    display: flex;
+    gap: 0 8.6rem;
+}
+.hs-box .hs-img img{
+    width: 18rem;
+    height: 18rem;
+}
+.hs-box .hs-data h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.hs-box .hs-data p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#Horoscope a{
+    display: block;
+}
+/**************************************/
 @media screen and (min-width:1500px) {
     .container {
         max-width: 150rem;

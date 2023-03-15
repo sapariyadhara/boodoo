@@ -72,12 +72,10 @@ header {}
     position: relative;
     top: 0;
     width: 100%;
-    /* height: 100vh; */
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     display: flex;
     background-position: center center;
     background-size: cover;
-    /* z-index: -9; */
 }
 
 #hero::before {
@@ -138,7 +136,8 @@ header {}
 #descover {
     background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
     width: 100%;
-
+    padding:  10rem 0;
+    margin-top: -0.5rem;
 }
 
 .discover-icons {
@@ -226,7 +225,8 @@ header {}
 /************Imageine Section********/
 #imageine {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
-    padding-top: 20rem;
+    padding:  10rem 0;
+    margin-top: -0.5rem;
 }
 
 .super-imagine h2 {
@@ -264,7 +264,8 @@ header {}
 
 /***************Service Section***************/
 #SERVICES {
-    padding-top: 20rem;
+    margin-top: -0.5rem;
+    padding:  10rem 0;
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
 }
 
@@ -318,9 +319,8 @@ header {}
 #why {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding-top: 20rem;
-    padding-bottom: 20rem;
+    margin-top: -0.5rem;
+    padding:  10rem 0;
 }
 
 #why .main-title {
@@ -364,8 +364,8 @@ header {}
 #Horoscope#Horoscope {
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding: 20rem 0;
+    margin-top: -0.5rem;
+    padding:  10rem 0;
 }
 
 #Horoscope .main-title {
@@ -445,8 +445,8 @@ header {}
 #Our-team {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding: 20rem 0;
+    margin-top: -0.5rem;
+    padding:  10rem 0;
 
 }
 
@@ -482,6 +482,10 @@ header {}
     padding: 3.3rem 30.6rem 3.3rem 3rem;
 }
 
+.team-data input::placeholder {
+    color: #FFF;
+}
+
 /**************************************/
 
 /***********Membership Section**************/
@@ -489,10 +493,9 @@ header {}
     position: relative;
     background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
     background-size: cover;
-    padding: 10.5rem 0;
+    padding:  20rem 0 10rem 0;
     text-align: center;
-    /* z-index: -9; */
-
+    margin-top: -0.5rem;
 }
 
 #membership::before {
@@ -536,8 +539,8 @@ header {}
 #mem-price {
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding: 20rem 0;
+    margin-top: -0.5rem;
+    padding:  10rem 0;
 }
 
 #mem-price .main-title {
@@ -617,8 +620,8 @@ header {}
 #say-about {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding: 20rem 0;
+    margin-top: -0.5rem;
+    padding:  10rem 0;
 }
 
 #say-about .main-title h2 {
@@ -632,7 +635,7 @@ header {}
 }
 
 .arrow-img img {
-    margin: 0 auto;
+    margin: 0 auto 14rem auto;
     text-align: center;
 }
 
@@ -642,15 +645,16 @@ header {}
 
 .swiper-wrapper .client-say {
     padding-left: 3rem;
-    width: 48rem;
-    height: 76rem;
-
+    /* width: 48rem;
+    height: 76rem; */
+    margin: 0 2.1rem;
 }
 
 .client-say .client-img {
     Width: 476px;
     Height: 512px;
     margin-bottom: 10rem;
+   
 }
 
 .client-say .client-img img {
@@ -714,8 +718,8 @@ header {}
 #blog {
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding: 20rem 0;
+    padding:  10rem 0;
+    margin-top: -0.5rem;
 }
 
 #blog .main-title {
@@ -748,17 +752,36 @@ header {}
     max-width: 36rem;
 }
 
+.contact p a {
+    margin-right: 2.1rem;
+    color: #FFFFFF;
+}
+
+.contact p a:hover {
+    color: blue;
+
+}
+
+.fb-data p {
+    margin-top: 2rem;
+}
+
+
 /*********************************************/
 /****************Feedback Section*************/
 #feedback {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
-    /* height: 100vh; */
-    padding: 20rem 0;
+    padding:  10rem 0;
+    margin-top: -0.5rem;
 }
 
 #feedback hr {
-    border: 2px solid #ffffff;
+    border: none;
+    width: 159.4rem;
+    height: 3px;
+    background-color: #FFF;
+    
 }
 
 .fb-data {
@@ -780,14 +803,37 @@ header {}
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .fb-data p {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
 }
-.fb-data .logo-blog p{
+
+.fb-data .logo-blog p {
     width: 273.75px;
+}
+#feedback p span {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto 4.5rem auto;
+}
+.fb-data a{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+.fb-data a i{
+    margin-right: 2rem;
 }
 /*********************************************/
 @media screen and (min-width:1500px) {

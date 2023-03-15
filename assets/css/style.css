@@ -828,12 +828,13 @@ header {}
     display: block;
     font-weight: 400;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 2.4rem;
     color: #FFFFFF;
     margin-bottom: 2rem;
 }
 .fb-data a i{
     margin-right: 2rem;
+    
 }
 /*********************************************/
 @media screen and (min-width:1500px) {

@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="container">
             <div class="main-header">
                 <a href="#" class="logo">
@@ -35,8 +35,38 @@
                 </nav>
             </div>
         </div>
+    </header> -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="./assets/images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Page</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Contact Us</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
     </header>
 
+    
     <main>
         <section id="hero">
             <div class="container">
@@ -103,12 +133,12 @@
         <section id="imageine">
             <div class="container">
                 <div class="super-imagine row">
-                    <div class="col-md-5">
+                    <div class="sp-img-1 col-md-5">
                         <h2>SUPER IMAGINE</h2>
                         <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu
                             consectetur elit at. Nulla erat nunc nisl dui sed cras semper vitae tempor odio.</p>
                     </div>
-                    <div class="col-md-7">
+                    <div class="sp-img-2 col-md-7">
                         <div class="image-img">
                             <img src="./assets/images/imagine-3.jpg" alt="">
                         </div>
@@ -292,8 +322,7 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                       <form action="">
-                        <div class=" row">
+                        <div class="row">
                             <div class="form-data col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">FIRST NAME*</label>
                                 <input type="text" class="form-control" id="First name"
@@ -325,14 +354,13 @@
                             </div>
                             <div class="form-data col-md-6">
                                 <label for="formGroupExampleInput" class="form-label">DATE*</label>
-                                <input type="date" class="date form-control" id="date" placeholder="Choose Date"
+                                <input type="date" class="form-control" id="date" placeholder="Choose Date"
                                     aria-label="date">
                             </div>
                             <div class="form-data col-md-6">
                                 <a href="#" class="btn-theme">BookNow</a>
                             </div>
                         </div>
-                       </form>
                     </div>
                 </div>
             </div>
@@ -340,6 +368,7 @@
         </section>
 
         <section id="membership">
+           <div class="container">
             <div class="mem-ship">
                 <h2>LET’S BECOME MEMBERSHIP</h2>
                 <p>Lorem ipsum dolor sit amet consectetur. Pellentesque nascetur sed tellus ut vehicula eu consectetur
@@ -347,6 +376,7 @@
                     eu.</p>
                 <a href="#" class="btn-theme">Get started</a>
             </div>
+           </div>
         </section>
 
         <section id="mem-price">

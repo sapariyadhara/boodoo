@@ -63,7 +63,25 @@ header {}
     margin-right: 0;
 }
 
+header .bg-dark {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+}
 
+header .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+header .navbar-dark .navbar-toggler {
+
+    margin-right: 2rem;
+}
+
+.navbar>.container-fluid {
+    padding: 1rem 2rem;
+}
 
 /**************************/
 
@@ -126,7 +144,7 @@ header {}
     background: #C8191C;
     font-weight: 600;
     font-size: 2.4rem;
-    line-height: 3.3rem;
+    /* line-height: 3.3rem; */
     color: #FFFFFF;
 }
 
@@ -363,7 +381,7 @@ header {}
 
 /**************************************/
 /**************Horoscope Section************/
-#Horoscope#Horoscope {
+#Horoscope {
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
     margin-top: -0.5rem;
@@ -464,9 +482,11 @@ header {}
     color: #FFFFFF;
 
 }
-.form-data{
-   padding-right: 8rem;
+
+.form-data {
+    padding-right: 8rem;
 }
+
 .team-data .form-select,
 .team-data .form-control {
     font-weight: 400;
@@ -479,18 +499,18 @@ header {}
     margin-right: 8rem;
     /* padding: 3.3rem 18.6rem 3.3rem 3rem; */
     width: 100%;
-    padding: 3.3rem ;
+    padding: 3.3rem;
 }
 
 /* .team-data .form-select {
     padding: 3.3rem 30.6rem 3.3rem 3rem;
 } */
-.form-data{
-  
-}
+.form-data {}
+
 .team-data input::placeholder {
     color: #FFF;
 }
+
 /* .team-data .date{
     padding: 3.3rem 18.6rem 3.3rem 3rem;
 
@@ -502,7 +522,7 @@ header {}
     position: relative;
     background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
     background-size: cover;
-    padding: 20rem 0 10rem 0;
+    padding: 6rem 0 11rem 0;
     text-align: center;
     margin-top: -0.5rem;
 }
@@ -514,6 +534,7 @@ header {}
     inset: 0;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 90% auto;
 }
 
 .mem-ship {
@@ -640,6 +661,7 @@ header {}
     color: #FFFFFF;
     margin: 0 auto;
 }
+
 /* .arrow-img {
     width: ;
 } */
@@ -788,10 +810,10 @@ header {}
 
 #feedback hr {
     border: none;
-    width: 159.4rem;
+    /* width: 159.4rem; */
     height: 3px;
     background-color: #FFF;
-
+    margin: 0 auto;
 }
 
 .fb-data {
@@ -850,6 +872,10 @@ header {}
 
 }
 
+.form-data {
+    padding: 0 3rem;
+}
+
 /*********************************************/
 
 @media screen and (min-width:1500px) {
@@ -863,6 +889,29 @@ header {}
     .container {
         max-width: 170rem;
         padding: 0 1rem;
+    }
+
+}
+
+@media screen and (max-width:1700px) {
+    .hero-data h1 {
+        font-size: 12rem;
+    }
+
+    .super-imagine h2 {
+        font-size: 12.5rem;
+    }
+
+    .super-imagine .image-img {
+        width: 81rem;
+    }
+
+    .with-data::before {
+        left: 7rem;
+    }
+
+    .forecast {
+        gap: 6rem 0;
     }
 }
 
@@ -878,7 +927,7 @@ header {}
     }
 
     .hero-data h1 {
-        font-size: 12rem;
+        font-size: 10rem;
         line-height: 14rem;
         margin-top: 33rem;
     }
@@ -888,88 +937,396 @@ header {}
     }
 
     #descover {
-        padding: 6rem 0;
+        padding: 3rem 0;
     }
+
     .main-title h2 {
         font-size: 7.4rem;
         line-height: 10rem;
-        margin-bottom: 4rem;
     }
+
     .with-data::before {
         height: 41rem;
     }
+
     .with-img .dis-img {
         height: 43.6rem;
     }
+
     .super-imagine h2 {
         font-size: 12rem;
     }
+
     .super-imagine .image-img {
         width: 77rem;
         margin-bottom: 5rem;
     }
+
     .super-imagine p {
         margin-top: 6.5rem;
     }
+
     #Our-team {
         padding: 7rem 0;
     }
-    .team-data .form-label {
+
+    /* .team-data .form-label {
         font-size: 2.5rem;
         line-height: 0.4rem;
     }
     .team-data .form-control {
         font-size: 2.4rem;
         padding: 2rem 12.6rem 2rem 3rem;
-    }
+    } */
     /* .team-data .form-select {
         font-size: 2.4rem;
         padding: 2rem 12.6rem 2rem 3rem;
     } */
-    .team-data .form-select {
+    /* .team-data .form-select {
         padding: 2rem 25.6rem 2rem 3rem;
     }
     .team-data .date{
         padding: 2rem 22.6rem 2rem 3rem;
     
-    }
+    } */
     #membership {
-        padding: 13rem 0 10rem 0;
+        padding: 3rem 0 10rem 0;
     }
+
+    .mp-data-box {
+        padding: 4rem 4.7rem;
+    }
+
+    .mp-data p {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .mp-data p i {
+        font-size: 4rem;
+    }
+
+    .mp-data .btn-theme {
+        margin-top: 6rem;
+    }
+
     #say-about .main-title h2 {
-        font-size: 11rem;
-        line-height: 16.1rem;
+        font-size: 10rem;
+        line-height: 14.1rem;
     }
+
+    .client-say .client-img {
+        Width: 41.6rem;
+        Height: 45.2rem;
+    }
+
     .swiper-wrapper .client-say {
         padding-left: 0rem;
-        margin: 0 1.1rem;
+        margin: 0px -1.9rem;
     }
+
     .arrow-img img {
         margin: 0 auto 9rem auto;
         text-align: center;
-        
+
     }
+
     .mySwiper {
         position: relative;
         margin: 0px 6rem;
-    } 
+    }
+
     .mySwiper .swiper-button-prev {
         position: absolute;
         top: 28rem;
         color: #FFF;
-        left: 4rem;
+        left: 2rem;
     }
+
     .mySwiper .swiper-button-next {
         position: absolute;
         top: 28rem;
         color: #FFF;
         right: 2rem;
     }
+
     .swiper-wrapper {
         margin: 2rem 10rem;
     }
+
     #say-about {
         padding: 7rem 0;
     }
 
+    #imageine {
+        padding: 7rem 0;
+    }
+
+    #SERVICES {
+        padding: 7rem 0;
+    }
+
+    #why {
+        padding: 7rem 0;
+    }
+
+    #Horoscope {
+        padding: 7rem 0;
+    }
+
+    #mem-price {
+        padding: 7rem 0;
+    }
+
+    #blog {
+        padding: 7rem 0;
+    }
+
+    #feedback {
+        padding: 7rem 0;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    .main-header {
+        padding: 3rem 2rem 0rem 2rem;
+    }
+
+    .discover-icons h3 {
+        font-size: 4.4rem;
+    }
+
+    .discover-icons img {
+        width: 68%;
+    }
+
+    .discover-icons {
+        margin-bottom: 5.2rem;
+    }
+
+    .with-img .dis-img {
+        height: 32.6rem;
+        width: 50.9rem;
+    }
+
+    .main-title h2 {
+        font-size: 5.6rem;
+        line-height: 8rem;
+        margin-bottom: 3rem;
+    }
+
+    .with-data::before {
+        height: 37rem;
+        left: 3rem;
+    }
+
+    .discover-with p {
+        margin-top: 4rem;
+    }
+
+    .super-imagine .image-img {
+        width: 60rem;
+        margin-bottom: 4rem;
+    }
+
+    .super-imagine h2 {
+        font-size: 9.5rem;
+        line-height: 13.1rem;
+        margin-top: 2rem;
+
+    }
+
+    .super-imagine p {
+        margin-top: 4.5rem;
+        max-width: 43rem;
+    }
+
+    .navbar-brand img {
+        max-width: 80%;
+    }
+
+    .navbar>.container-fluid {
+        padding: 1rem 1rem;
+    }
+
+    .hero-data h1 {
+        font-size: 8rem;
+        line-height: 9rem;
+        margin-top: 22rem;
+    }
+
+    header .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.8rem;
+    }
+
+    #hero {
+        height: 77vh;
+    }
+
+    .discover-icons img {
+        width: 47%;
+    }
+
+    .discover-icons h3 {
+        font-size: 3.4rem;
+    }
+
+    .main-title h5 {
+        font-size: 2rem;
+        line-height: 1.3rem;
+    }
+
+    .with-data::before {
+        height: 31rem;
+        left: 4rem;
+        top: 2.4rem;
+    }
+
+    .btn-theme {
+        padding: 1.5rem 6rem;
+        font-size: 2rem;
+    }
+
+    .with-data .btn-theme {
+        margin-top: 1rem;
+    }
+
+    .super-imagine .sp-img-1 h2 {
+        margin-top: 9rem;
+    }
+
+    .forecast .forecast-data img {
+        width: 40rem;
+        height: 25rem;
+    }
+
+    .forecast .forecast-data h4 {
+        font-size: 3.4rem;
+        line-height: 4rem;
+        margin-top: 2rem;
+    }
+
+    .forecast .forecast-data p {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        margin-top: 1rem;
+    }
+
+    .forecast .forecast-data {
+        padding: 3rem;
+    }
+
+    .forecast {
+        gap: 5rem 0;
+    }
+
+    #why .main-title h2 {
+        margin-bottom: 5.2rem;
+    }
+
+    .why-choose img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .why-choose h3 {
+        font-size: 2.2rem;
+    }
+
+    .why-choose p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .hs-box {
+        gap: 0 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .hs-box .hs-img img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .hs-box .hs-data h3 {
+        font-size: 4.4rem;
+        line-height: 6.3rem;
+    }
+
+    .hs-box .hs-data p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    #Horoscope .btn-theme {
+        width: 25rem;
+    }
+
+    .client {
+        margin-top: 6rem;
+    }
+
+    .client h5 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+
+    .client h2 {
+        font-size: 8rem;
+        line-height: 9.6rem;
+    }
+
+    .team-data .form-label {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+
+    .team-data .form-control ,.team-data .form-select{
+        font-size: 2rem;
+        line-height: 2.3rem;
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+        margin-right: 8rem;
+        padding: 2rem;
+    }
+    .team-data .main-title {
+        margin: 11.4rem 0;
+    }
+    #membership h2 {
+        font-size: 6.4rem;
+        line-height: 8.4rem;
+    }
+    #membership p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin: 0 auto 4rem auto;
+    }
+    .mp-data-box {
+        padding: 3rem 2.7rem;
+    }
+    .mp-data h3 {
+        font-size: 2rem;
+        line-height: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .mp-data h2 {
+        font-size: 5.5rem;
+        line-height: 7.8rem;
+        margin-bottom: 2rem;
+    }
+    .mp-data p {
+        font-size: 1.4rem;
+    }
+    .mp-data p i {
+        font-size: 3.4rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    .mp-data .btn-theme {
+        margin-top: 5rem;
+        padding: 1rem 6rem;
+        width: 25rem;
+        height: 5.5rem;
+    }
 }

@@ -36,7 +36,7 @@ img {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 9999;
     background-color: #000;
 }
 
@@ -822,7 +822,7 @@ header .navbar-dark .navbar-toggler {
 
 #feedback hr {
     border: none;
-    /* width: 159.4rem; */
+    /* width: auto; */
     height: 3px;
     background-color: #FFF;
     margin: 0 auto;
@@ -1090,14 +1090,27 @@ header .navbar-dark .navbar-toggler {
         margin-top: 6rem;
     }
 
-    #say-about .main-title h2 {
-        font-size: 10rem;
-        line-height: 14.1rem;
+    .arrow-img {
+        width: 1rem;
+        height: 20rem;
+        margin: 0 auto;
     }
 
+    .arrow-img img {
+        width: 100%;
+        height: 70%;
+        margin: 0 auto;
+    } 
+    #say-about .main-title h2 {
+        font-size: 7rem;
+        line-height: 9.1rem;
+        max-width: 127rem;
+    }
+    
+  
     .client-say .client-img {
-        Width: 41.6rem;
-        Height: 45.2rem;
+        Width: 34.6rem;
+        Height: 37.2rem;
     }
 
     .swiper-wrapper .client-say {
@@ -1112,20 +1125,19 @@ header .navbar-dark .navbar-toggler {
     }
 
     .mySwiper {
-        position: relative;
-        margin: 0px 7rem;
+        margin: 0px 25rem;
     }
 
     .mySwiper .swiper-button-prev {
         position: absolute;
-        top: 28rem;
+        top: 21rem;
         color: #FFF;
         left: 2rem;
     }
 
     .mySwiper .swiper-button-next {
         position: absolute;
-        top: 28rem;
+        top: 21rem;
         color: #FFF;
         right: 2rem;
     }
@@ -1133,7 +1145,51 @@ header .navbar-dark .navbar-toggler {
     .swiper-wrapper {
         margin: 2rem 10rem;
     }
-
+    .hs-box .hs-img img {
+        width: 13rem;
+        height: 13rem;
+    }
+    .hs-box .hs-data h3 {
+        font-size: 4.4rem;
+        line-height: 6.3rem;
+    }
+    .hs-box {
+        gap: 0 3rem;
+        margin-bottom: 6rem;
+    }
+    #Horoscope .btn-theme {
+        width: 25rem;
+    }
+    .client {
+        margin-top: 11rem;
+    }    
+    .client h5 {
+        font-size: 3rem;
+        line-height: 2.4rem;
+    }
+    .client h2 {
+        font-size: 7rem;
+        line-height: 10.6rem;
+    }
+    .team-data .form-label {
+        font-size: 2.8rem;
+        line-height: 2.4rem;
+    }
+    .team-data .form-select, .team-data .form-control {
+        font-size: 2rem;
+        line-height: 2.3rem;
+        margin-bottom: 6rem;
+        margin-top: 2rem;
+        margin-right: 8rem;
+        padding: 2.3rem;
+    }
+    .team-data .main-title {
+        margin: 16.4rem 0;
+    }
+    .mp-data h2 {
+        font-size: 6.2rem;
+        line-height: 6.8rem;
+    }
     #say-about {
         padding: 3rem 0;
     }

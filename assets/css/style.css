@@ -27,7 +27,18 @@ img {
 }
 
 /*********header************/
-header {}
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #000;
+}
 
 .main-header {
     padding: 4rem 2rem 2rem 2rem;
@@ -64,7 +75,7 @@ header {}
 }
 
 header .bg-dark {
-    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    background: #000;
 }
 
 header .navbar-dark .navbar-nav .nav-link {
@@ -80,7 +91,7 @@ header .navbar-dark .navbar-toggler {
 }
 
 .navbar>.container-fluid {
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
 }
 
 /**************************/
@@ -302,8 +313,8 @@ header .navbar-dark .navbar-toggler {
 
 .forecast {
     display: flex;
-    justify-content: space-around;
-    gap: 7rem 0;
+    justify-content: center;
+    gap: 43px 90px;
 }
 
 .forecast .forecast-data {
@@ -331,6 +342,7 @@ header .navbar-dark .navbar-toggler {
     line-height: 2.4rem;
     color: #FFFFFF;
     margin-top: 2rem;
+    max-width: 53rem;
 }
 
 /**************************************/
@@ -911,25 +923,24 @@ header .navbar-dark .navbar-toggler {
     }
 
     .forecast {
-        gap: 6rem 0;
+        /* gap: 6rem 0; */
+    }
+
+    .mySwiper {
+        margin: 0px 14rem;
     }
 }
 
 @media screen and (max-width:1650px) {
-    /* .container {
+    .container {
         max-width: 160rem;
-        padding: 0 1rem;
-    } */
-
-    .main-header {
-        padding: 3rem 2rem 1rem 2rem;
-        z-index: 999;
+        padding: 0 3rem;
     }
 
     .hero-data h1 {
-        font-size: 10rem;
-        line-height: 14rem;
-        margin-top: 33rem;
+        font-size: 9rem;
+        line-height: 11rem;
+        margin-top: 30rem;
     }
 
     .hero-data p {
@@ -940,55 +951,124 @@ header .navbar-dark .navbar-toggler {
         padding: 3rem 0;
     }
 
+    .discover-icons {
+        margin-bottom: 5.2rem;
+        padding: 0 7rem;
+    }
+
+    .discover-icons h3 {
+        font-size: 3.7rem;
+        line-height: 6.3rem;
+    }
+
     .main-title h2 {
-        font-size: 7.4rem;
-        line-height: 10rem;
+        font-size: 6.4rem;
+        line-height: 9rem;
+
+    }
+
+    .main-title h5 {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.3rem;
+    }
+
+    #descover .main-title h2 {
+        margin-bottom: 6rem;
+        padding-right: 10rem;
+
     }
 
     .with-data::before {
-        height: 41rem;
+        height: 36rem;
+        top: 2.8rem;
+        left: 5rem;
+    }
+
+    .discover-with p {
+        margin-top: -2rem;
+        margin-left: 4rem;
     }
 
     .with-img .dis-img {
-        height: 43.6rem;
+        padding: 0 4.2rem 10.4rem 4rem;
     }
 
     .super-imagine h2 {
-        font-size: 12rem;
+        font-size: 9rem;
+        padding-left: 4rem;
+        line-height: 14.1rem;
     }
 
     .super-imagine .image-img {
-        width: 77rem;
+        width: 56rem;
         margin-bottom: 5rem;
+        margin-left: 8rem;
+    }
+
+    .sp-img-1 h2 {
+        margin-top: 7rem;
+    }
+
+    .sp-img-2 {
+        padding-left: 12rem;
     }
 
     .super-imagine p {
         margin-top: 6.5rem;
+        margin-left: 4rem;
     }
 
+    #SERVICES h2 {
+        font-size: 6.4rem;
+        line-height: 7rem;
+        max-width: 128rem;
+        text-align: center;
+        margin-bottom: 10rem;
+        margin: 0 auto 2rem auto;
+    }
+
+    .forecast .forecast-data img {
+        width: 45rem;
+        height: 25rem;
+    }
+
+    .forecast .forecast-data h4 {
+        font-size: 3rem;
+        line-height: 2rem;
+        margin-top: 3rem;
+    }
+
+    .forecast .forecast-data p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        max-width: 36rem;
+    }
+
+    .forecast .forecast-data {
+        padding: 3rem 3rem;
+    }
+    #why .main-title h2 {
+        margin-bottom: 6.2rem;
+    }
+    .why-choose img {
+        width: 12rem;
+        height: 12rem;
+    }
+    .why-choose h3 {
+        font-size: 2.2rem;
+        line-height: 3.4rem;
+    }
+    #Horoscope .main-title h2 {
+        max-width: 74rem;
+        margin: 0 auto 10rem auto;
+        font-size: 5.4rem;
+    }
     #Our-team {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
-    /* .team-data .form-label {
-        font-size: 2.5rem;
-        line-height: 0.4rem;
-    }
-    .team-data .form-control {
-        font-size: 2.4rem;
-        padding: 2rem 12.6rem 2rem 3rem;
-    } */
-    /* .team-data .form-select {
-        font-size: 2.4rem;
-        padding: 2rem 12.6rem 2rem 3rem;
-    } */
-    /* .team-data .form-select {
-        padding: 2rem 25.6rem 2rem 3rem;
-    }
-    .team-data .date{
-        padding: 2rem 22.6rem 2rem 3rem;
-    
-    } */
+
     #membership {
         padding: 3rem 0 10rem 0;
     }
@@ -1033,7 +1113,7 @@ header .navbar-dark .navbar-toggler {
 
     .mySwiper {
         position: relative;
-        margin: 0px 6rem;
+        margin: 0px 7rem;
     }
 
     .mySwiper .swiper-button-prev {
@@ -1055,35 +1135,35 @@ header .navbar-dark .navbar-toggler {
     }
 
     #say-about {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #imageine {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #SERVICES {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #why {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #Horoscope {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #mem-price {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #blog {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
     #feedback {
-        padding: 7rem 0;
+        padding: 3rem 0;
     }
 
 }
@@ -1363,52 +1443,67 @@ header .navbar-dark .navbar-toggler {
         margin-bottom: 4rem;
     }
 
-    .mySwiper .swiper-button-prev , 
-    .mySwiper .swiper-button-next {  
+    .mySwiper {
+        margin: 0px 8rem;
+    }
+
+    .mySwiper .swiper-button-prev,
+    .mySwiper .swiper-button-next {
         top: 20rem;
     }
+
     .client-say .client-data img {
         width: 7.8rem;
         height: 6.5rem;
         top: -3rem;
         left: -2rem;
     }
+
     .fb-data {
         margin: 5rem 0;
-       
+
     }
+
     .fb-data h3 {
         font-size: 2.2rem;
         line-height: 2.4rem;
     }
+
     .fb-data a {
         font-size: 1.4rem;
         line-height: 2.4rem;
     }
+
     .fb-data .maps img {
         width: 28.1rem;
         height: 16.5rem;
     }
+
     .fb-data p {
         font-size: 1.4rem;
     }
+
     .blog-data h3 {
         margin-top: 4rem;
         font-size: 2rem;
         line-height: 3rem;
     }
+
     .blog-data p {
         font-size: 1.4rem;
         line-height: 2.4rem;
     }
+
     .blog-data img {
         width: 23.1rem;
         height: 37rem;
     }
+
     .client-say .client-data p {
         max-width: 360px;
         font-size: 1.4rem;
     }
+
     #say-about {
         padding: 5rem 0;
     }

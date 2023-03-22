@@ -1565,10 +1565,10 @@ header .navbar-dark .navbar-toggler {
         margin: 0 auto;
     } */
 
-    .client-say .client-img {    
-    Width: 28.6rem;
-    Height: 31.2rem;
-    margin-bottom: 4rem;
+    .client-say .client-img {
+        Width: 28.6rem;
+        Height: 31.2rem;
+        margin-bottom: 4rem;
     }
 
     .mySwiper {
@@ -1610,9 +1610,11 @@ header .navbar-dark .navbar-toggler {
     .fb-data p {
         font-size: 1.4rem;
     }
+
     #membership {
         padding: 3rem 0 6rem 0;
     }
+
     .blog-data h3 {
         margin-top: 4rem;
         font-size: 2rem;
@@ -1687,3 +1689,287 @@ header .navbar-dark .navbar-toggler {
         padding-left: 0rem;
     }
 }
+
+@media screen and (max-width:1200px) {
+    .container p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .navbar-brand img {
+        max-width: 60%;
+    }
+
+    header .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.4rem;
+    }
+
+    .hero-data h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+        margin-top: 19rem;
+    }
+
+    .hero-data p {
+        padding: 1.5rem 0 3.5rem 0;
+    }
+    .hero-data .btn-theme {
+        margin-top: 1rem;
+        padding: 1rem 4rem;
+        width: 20rem;
+        height: 5.3rem;
+        font-size: 1.4rem;
+    }
+    .discover-icons h3 {
+        font-size: 2.4rem;
+        line-height: 3.3rem;
+    }
+    .main-title h5 {
+        font-size: 1.8rem;
+        line-height: 0.3rem;
+    }
+    .main-title h2 {
+        font-size: 3.6rem;
+        line-height: 6rem;
+    }
+    #descover .main-title h2 {
+        margin-bottom: 2rem;
+        max-width: 25.4rem;
+    }
+    .with-img .dis-img {
+        height: 34.6rem;
+        width: 44.9rem;
+        padding: 0 4.2rem 9.4rem 4rem;
+    }
+    .discover-with p {
+        margin-top: -5rem;
+    }    
+    .with-data::before {
+        height: 25rem;
+        top: 2rem;
+    }
+    .with-data .btn-theme {
+        padding: 1rem 3rem;
+        width: 16rem;
+        height: 4.3rem;
+        font-size: 1.4rem;
+    }        
+    .super-imagine .image-img {
+        width: 40rem;
+        height: 22rem;
+        margin-bottom: 1rem;
+    }
+    .super-imagine h2 {
+        font-size: 5.5rem;
+        line-height: 7.1rem;
+        margin-top: 2rem;
+    }
+    .sp-img-2 h2{
+        padding-left: 5rem;
+    }
+    .forecast .forecast-data img {
+        width: 23rem;
+        height: 15rem;
+    }
+    .forecast .forecast-data h4 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .forecast .forecast-data p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+    .forecast .forecast-data {
+        padding: 2rem;
+    }
+    .why-choose img {
+        width: 7rem;
+        height: 7rem;
+    }
+    .why-choose h3 {
+        font-size: 1.8rem;
+    }    
+    #Horoscope .main-title h2 {
+        font-size: 3.6rem;
+        line-height: 4rem;
+        max-width: 46rem;
+    }
+    .hs-box .hs-data h3 {
+        font-size: 2.4rem;
+        line-height: 2.3rem;
+    }
+    .hs-box .hs-img img {
+        width: 7rem;
+        height: 7rem;
+    }
+    #Horoscope .btn-theme {
+        width: 15rem;
+        height: 4.3rem;
+        font-size: 1.4rem;
+        padding: 1rem 4rem;
+    }
+    .client h5 {
+        font-size: 1.6rem;
+        line-height: 0.4rem;
+    }
+    .client h2 {
+        font-size: 4rem;
+        line-height: 4.6rem;
+    }
+    .team-data .form-label {
+        font-size: 2rem;
+        line-height: 1.4rem;
+    }
+    .team-data .form-control , .team-data .form-select {
+        font-size: 1.4rem;
+        line-height: 1.3rem;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        margin-right: 8rem;
+        padding: 1.5rem;
+    }  
+    .team-data .form-select {
+        padding: 1.8rem;
+    }  
+    #Our-team .btn-theme {
+        padding: 1rem 4rem;
+        width: 15rem;
+        height: 4.3rem;
+        font-size: 1.4rem;
+    }
+    .team-data  .main-title h2 {
+        font-size: 2.6rem;
+        line-height: 4rem;
+        padding-right: 11rem;
+    }
+    #membership h2 {
+        font-size: 3.6rem;
+        line-height: 5.4rem;
+    }
+    #membership p {
+        margin: 0 auto 3rem auto;
+    }
+    #membership .btn-theme {
+        padding: 1rem 4rem;
+        width: 15rem;
+        height: 4.3rem;
+        font-size: 1.4rem;
+    }
+    .mp-data .btn-theme {
+        padding: 1rem 3.5rem;
+        width: 15rem;
+        height: 4.5rem;
+        font-size: 1.4rem;
+        margin: 4rem auto 0 auto;
+    }
+    #say-about .main-title h2 {
+        font-size: 3rem;
+        line-height: 4.1rem;
+        max-width: 30rem;
+    }
+    .arrow-img img {
+        width: 66%;
+        height: 44%;
+        margin: 0 auto;
+    }
+    .mySwiper {
+        margin: 0px 10rem;
+    }
+    .client-say .client-img {
+        Width: 21.6rem;
+        Height: 26.2rem;
+        margin-bottom: 3rem;
+    }  
+    .mySwiper .swiper-button-prev {
+        position: absolute;
+        top: 15rem;
+        color: #FFF;
+        left: 2rem;
+    }    
+    .mySwiper .swiper-button-next {
+        position: absolute;
+        top: 15rem;
+        color: #FFF;
+        right: 1rem;
+    }       
+    .client-say .client-data p {
+        max-width: 302px;
+        font-size: 1.4rem;
+    }
+    .client-say .client-data h4 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }  
+    .blog-data img {
+        width: 20.1rem;
+        height: 29rem;
+    }
+    .blog-data h3 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .logo-blog img{
+        width: 46%;
+        height: 27%;
+    }   
+    .fb-data a {
+        margin-bottom: 1rem;
+    }  
+    .fb-data {
+        margin: 3rem 0;
+        justify-content: flex-start;
+        gap: 3rem 0;
+    }       
+    #feedback p span {
+        font-size: 1.4rem;
+        margin: 0 auto 1.5rem auto;
+    }     
+    #Our-team {
+        padding: 3rem 0;
+    }
+
+    #say-about {
+        padding: 3rem 0;
+    }
+
+    #imageine {
+        padding: 3rem 0;
+    }
+
+    #SERVICES {
+        padding: 3rem 0;
+    }
+
+    #why {
+        padding: 3rem 0;
+    }
+
+    #Horoscope {
+        padding: 3rem 0;
+    }
+
+    #mem-price {
+        padding: 3rem 0;
+    }
+
+    #blog {
+        padding: 3rem 0;
+    }
+
+    #feedback {
+        padding: 3rem 0;
+    }
+
+}
+@media screen and (max-width:992px) {
+
+}
+
+
+
+
+
+
+

@@ -1061,8 +1061,9 @@ header .navbar-dark .navbar-toggler {
     }
     #Horoscope .main-title h2 {
         max-width: 74rem;
-        margin: 0 auto 10rem auto;
+        margin: 0 auto 4rem auto;
         font-size: 5.4rem;
+        line-height: 6rem;
     }
     #Our-team {
         padding: 3rem 0;
@@ -1224,7 +1225,7 @@ header .navbar-dark .navbar-toggler {
 
 }
 
-@media screen and (max-width:1400px) {
+ @media screen and (max-width:1400px) {
     .main-header {
         padding: 3rem 2rem 0rem 2rem;
     }
@@ -1239,6 +1240,7 @@ header .navbar-dark .navbar-toggler {
 
     .discover-icons {
         margin-bottom: 5.2rem;
+        padding: 0 3rem;
     }
 
     .with-img .dis-img {
@@ -1289,16 +1291,16 @@ header .navbar-dark .navbar-toggler {
     .hero-data h1 {
         font-size: 8rem;
         line-height: 9rem;
-        margin-top: 22rem;
+        margin-top: 26rem;
     }
 
     header .navbar-dark .navbar-nav .nav-link {
         font-size: 1.8rem;
     }
-
+/* 
     #hero {
-        height: 77vh;
-    }
+        height: 100vh;
+    } */
 
     .discover-icons img {
         width: 47%;
@@ -1592,4 +1594,4 @@ header .navbar-dark .navbar-toggler {
         padding: 5rem 0;
     }
 
-}
+} 

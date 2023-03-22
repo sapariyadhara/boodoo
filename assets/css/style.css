@@ -159,11 +159,15 @@ header .navbar-dark .navbar-toggler {
     color: #FFFFFF;
 }
 
+.btn-theme:hover {
+    color: #008;
+}
+
 /**************************/
 
 /******Descover*************/
 #descover {
-    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 258.79%);
     width: 100%;
     padding: 10rem 0;
     margin-top: -0.5rem;
@@ -201,6 +205,10 @@ header .navbar-dark .navbar-toggler {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 8rem;
+}
+
+#descover .main-title h2 {
+    max-width: 57.4rem;
 }
 
 .discover-with p {
@@ -970,12 +978,13 @@ header .navbar-dark .navbar-toggler {
     .main-title h5 {
         font-weight: 700;
         font-size: 2rem;
-        line-height: 1.3rem;
+        line-height: 2.3rem;
     }
 
     #descover .main-title h2 {
         margin-bottom: 6rem;
-        padding-right: 10rem;
+        max-width: 46.4rem;
+        /* padding-right: 5rem; */
 
     }
 
@@ -1048,27 +1057,27 @@ header .navbar-dark .navbar-toggler {
     .forecast .forecast-data {
         padding: 3rem 3rem;
     }
+
     #why .main-title h2 {
         margin-bottom: 6.2rem;
     }
+
     .why-choose img {
         width: 12rem;
         height: 12rem;
     }
+
     .why-choose h3 {
         font-size: 2.2rem;
         line-height: 3.4rem;
     }
+
     #Horoscope .main-title h2 {
         max-width: 74rem;
         margin: 0 auto 4rem auto;
         font-size: 5.4rem;
         line-height: 6rem;
     }
-    #Our-team {
-        padding: 3rem 0;
-    }
-
 
     #membership {
         padding: 3rem 0 10rem 0;
@@ -1101,14 +1110,15 @@ header .navbar-dark .navbar-toggler {
         width: 100%;
         height: 70%;
         margin: 0 auto;
-    } 
+    }
+
     #say-about .main-title h2 {
         font-size: 7rem;
         line-height: 9.1rem;
         max-width: 127rem;
     }
-    
-  
+
+
     .client-say .client-img {
         Width: 34.6rem;
         Height: 37.2rem;
@@ -1146,37 +1156,47 @@ header .navbar-dark .navbar-toggler {
     .swiper-wrapper {
         margin: 2rem 10rem;
     }
+
     .hs-box .hs-img img {
         width: 13rem;
         height: 13rem;
     }
+
     .hs-box .hs-data h3 {
         font-size: 4.4rem;
         line-height: 6.3rem;
     }
+
     .hs-box {
         gap: 0 3rem;
         margin-bottom: 6rem;
     }
+
     #Horoscope .btn-theme {
         width: 25rem;
     }
+
     .client {
         margin-top: 11rem;
-    }    
+    }
+
     .client h5 {
         font-size: 3rem;
         line-height: 2.4rem;
     }
+
     .client h2 {
         font-size: 7rem;
         line-height: 10.6rem;
     }
+
     .team-data .form-label {
         font-size: 2.8rem;
         line-height: 2.4rem;
     }
-    .team-data .form-select, .team-data .form-control {
+
+    .team-data .form-select,
+    .team-data .form-control {
         font-size: 2rem;
         line-height: 2.3rem;
         margin-bottom: 6rem;
@@ -1184,48 +1204,73 @@ header .navbar-dark .navbar-toggler {
         margin-right: 8rem;
         padding: 2.3rem;
     }
+
     .team-data .main-title {
         margin: 16.4rem 0;
     }
+
     .mp-data h2 {
         font-size: 6.2rem;
         line-height: 6.8rem;
     }
+
+    #Our-team {
+        padding: 7rem 0;
+    }
+
     #say-about {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #imageine {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #SERVICES {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #why {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #Horoscope {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #mem-price {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #blog {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
     #feedback {
-        padding: 3rem 0;
+        padding: 7rem 0;
     }
 
 }
 
- @media screen and (max-width:1400px) {
+@media screen and (max-width:1500px) {
+
+    /* .client-say .client-img {
+        Width: 28.6rem;
+        Height: 32.2rem;
+    } */
+    .mySwiper {
+        margin: -4rem 13rem 0 15rem;
+    }
+
+    /* .arrow-img img {
+        margin: 0 auto 3rem auto;
+    } */
+    .client-say .client-data p {
+        max-width: 41.4rem;
+    }
+}
+
+@media screen and (max-width:1400px) {
     .main-header {
         padding: 3rem 2rem 0rem 2rem;
     }
@@ -1244,14 +1289,25 @@ header .navbar-dark .navbar-toggler {
     }
 
     .with-img .dis-img {
-        height: 32.6rem;
-        width: 50.9rem;
+        height: 40.6rem;
+        width: 55.9rem;
+        padding: 0 4.2rem 10.4rem 4rem;
     }
 
     .main-title h2 {
-        font-size: 5.6rem;
-        line-height: 8rem;
+        font-size: 4.6rem;
+        line-height: 7rem;
         margin-bottom: 3rem;
+    }
+
+    #SERVICES h2 {
+        font-size: 4.6rem;
+        line-height: 6rem;
+        max-width: 87rem;
+    }
+
+    #descover .main-title h2 {
+        margin-bottom: 5rem;
     }
 
     .with-data::before {
@@ -1260,24 +1316,27 @@ header .navbar-dark .navbar-toggler {
     }
 
     .discover-with p {
-        margin-top: 4rem;
+        margin-top: -3rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
     }
 
     .super-imagine .image-img {
-        width: 60rem;
-        margin-bottom: 4rem;
+        width: 55rem;
+        height: 29rem;
+        margin-bottom: 2rem;
     }
 
     .super-imagine h2 {
-        font-size: 9.5rem;
-        line-height: 13.1rem;
+        font-size: 7.5rem;
+        line-height: 11.1rem;
         margin-top: 2rem;
-
     }
 
     .super-imagine p {
         margin-top: 4.5rem;
         max-width: 43rem;
+        font-size: 1.4rem;
     }
 
     .navbar-brand img {
@@ -1289,18 +1348,18 @@ header .navbar-dark .navbar-toggler {
     }
 
     .hero-data h1 {
-        font-size: 8rem;
-        line-height: 9rem;
-        margin-top: 26rem;
+        font-size: 7rem;
+        line-height: 8rem;
+        margin-top: 25rem;
     }
 
     header .navbar-dark .navbar-nav .nav-link {
         font-size: 1.8rem;
     }
-/* 
+
     #hero {
-        height: 100vh;
-    } */
+        height: 92vh;
+    }
 
     .discover-icons img {
         width: 47%;
@@ -1321,28 +1380,27 @@ header .navbar-dark .navbar-toggler {
         top: 2.4rem;
     }
 
-    .btn-theme {
-        padding: 1.5rem 6rem;
-        font-size: 2rem;
-    }
-
     .with-data .btn-theme {
         margin-top: 1rem;
+        padding: 1.5rem 4rem;
+        width: 20rem;
+        height: 5.3rem;
+        font-size: 1.8rem;
     }
 
     .super-imagine .sp-img-1 h2 {
-        margin-top: 9rem;
+        margin-top: 7rem;
     }
 
     .forecast .forecast-data img {
-        width: 40rem;
-        height: 25rem;
+        width: 33rem;
+        height: 19rem;
     }
 
     .forecast .forecast-data h4 {
-        font-size: 3.4rem;
-        line-height: 4rem;
-        margin-top: 2rem;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        margin-top: 1rem;
     }
 
     .forecast .forecast-data p {
@@ -1352,11 +1410,11 @@ header .navbar-dark .navbar-toggler {
     }
 
     .forecast .forecast-data {
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .forecast {
-        gap: 5rem 0;
+        gap: 3rem 5rem;
     }
 
     #why .main-title h2 {
@@ -1364,8 +1422,8 @@ header .navbar-dark .navbar-toggler {
     }
 
     .why-choose img {
-        width: 12rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .why-choose h3 {
@@ -1383,13 +1441,13 @@ header .navbar-dark .navbar-toggler {
     }
 
     .hs-box .hs-img img {
-        width: 13rem;
-        height: 13rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .hs-box .hs-data h3 {
-        font-size: 4.4rem;
-        line-height: 6.3rem;
+        font-size: 3.4rem;
+        line-height: 4.3rem;
     }
 
     .hs-box .hs-data p {
@@ -1398,7 +1456,10 @@ header .navbar-dark .navbar-toggler {
     }
 
     #Horoscope .btn-theme {
-        width: 25rem;
+        width: 20rem;
+        height: 5.3rem;
+        font-size: 1.8rem;
+        padding: 1.5rem 4rem;
     }
 
     .client {
@@ -1406,13 +1467,13 @@ header .navbar-dark .navbar-toggler {
     }
 
     .client h5 {
-        font-size: 2.2rem;
-        line-height: 2.4rem;
+        font-size: 1.8rem;
+        line-height: 0.4rem;
     }
 
     .client h2 {
-        font-size: 8rem;
-        line-height: 9.6rem;
+        font-size: 6rem;
+        line-height: 6.6rem;
     }
 
     .team-data .form-label {
@@ -1435,8 +1496,15 @@ header .navbar-dark .navbar-toggler {
     }
 
     #membership h2 {
-        font-size: 6.4rem;
-        line-height: 8.4rem;
+        font-size: 4.6rem;
+        line-height: 7.4rem;
+    }
+
+    #membership .btn-theme {
+        padding: 1.5rem 4rem;
+        width: 20rem;
+        height: 5.3rem;
+        font-size: 1.8rem;
     }
 
     #membership p {
@@ -1450,15 +1518,15 @@ header .navbar-dark .navbar-toggler {
     }
 
     .mp-data h3 {
-        font-size: 2rem;
-        line-height: 1.3rem;
-        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        line-height: 0.3rem;
+        margin-bottom: 2rem;
     }
 
     .mp-data h2 {
-        font-size: 5.5rem;
-        line-height: 7.8rem;
-        margin-bottom: 2rem;
+        font-size: 3.5rem;
+        line-height: 6.8rem;
+        margin-bottom: 1rem;
     }
 
     .mp-data p {
@@ -1472,37 +1540,39 @@ header .navbar-dark .navbar-toggler {
     }
 
     .mp-data .btn-theme {
-        margin-top: 5rem;
-        padding: 1rem 6rem;
-        width: 25rem;
+        padding: 1.5rem 4rem;
+        width: 20rem;
         height: 5.5rem;
+        font-size: 1.8rem;
+        margin: 5rem auto 0 auto;
     }
 
     #say-about .main-title h2 {
-        font-size: 8rem;
-        line-height: 9.1rem;
+        font-size: 5rem;
+        line-height: 7.1rem;
+        max-width: 53rem;
     }
 
     .arrow-img {
-        width: 2rem;
-        height: 30rem;
-        margin: 0 auto;
+        width: 1rem;
+        height: 20rem;
+        margin: 0 auto -5rem auto;
     }
 
-    .arrow-img img {
+    /* .arrow-img img {
         width: 100%;
         height: 70%;
         margin: 0 auto;
-    }
+    } */
 
-    .client-say .client-img {
-        Width: 32.6rem;
-        Height: 35.2rem;
-        margin-bottom: 4rem;
+    .client-say .client-img {    
+    Width: 28.6rem;
+    Height: 31.2rem;
+    margin-bottom: 4rem;
     }
 
     .mySwiper {
-        margin: 0px 8rem;
+        margin: 0px 11rem;
     }
 
     .mySwiper .swiper-button-prev,
@@ -1511,9 +1581,9 @@ header .navbar-dark .navbar-toggler {
     }
 
     .client-say .client-data img {
-        width: 7.8rem;
-        height: 6.5rem;
-        top: -3rem;
+        width: 5.8rem;
+        height: 4.5rem;
+        top: -2rem;
         left: -2rem;
     }
 
@@ -1540,7 +1610,9 @@ header .navbar-dark .navbar-toggler {
     .fb-data p {
         font-size: 1.4rem;
     }
-
+    #membership {
+        padding: 3rem 0 6rem 0;
+    }
     .blog-data h3 {
         margin-top: 4rem;
         font-size: 2rem;
@@ -1560,6 +1632,23 @@ header .navbar-dark .navbar-toggler {
     .client-say .client-data p {
         max-width: 360px;
         font-size: 1.4rem;
+    }
+
+    #Horoscope .main-title h2 {
+        font-size: 4.6rem;
+        line-height: 5rem;
+    }
+
+    #Our-team .btn-theme {
+        padding: 1.5rem 4rem;
+        width: 20rem;
+        height: 5.3rem;
+        font-size: 1.8rem;
+
+    }
+
+    #Our-team {
+        padding: 5rem 0;
     }
 
     #say-about {
@@ -1594,4 +1683,7 @@ header .navbar-dark .navbar-toggler {
         padding: 5rem 0;
     }
 
-} 
+    .sp-img-2 {
+        padding-left: 0rem;
+    }
+}
